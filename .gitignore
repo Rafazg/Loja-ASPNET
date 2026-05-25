@@ -1,0 +1,41 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# Entity Framework Migrations (opcional - descomente se quiser ignorar)
+# **/Migrations/
+
+# Appsettings local
+**/appsettings.Local.json
+**/appsettings.Production.json
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
