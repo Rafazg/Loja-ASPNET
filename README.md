@@ -1,4 +1,4 @@
-# MinhaApi - Arquitetura de Microserviços com BFF
+# Loja ASPNET - Arquitetura de Microserviços com BFF
 
 Projeto de estudo utilizando arquitetura de microserviços com ASP.NET Core 8, comunicação HTTP entre serviços e padrão BFF (Backend For Frontend).
 
@@ -17,7 +17,7 @@ Cart API
 
 ---
 
-# 📦 Microserviços
+# Microserviços
 
 ## 🔹 BFF API
 Responsável por centralizar as chamadas do frontend para os microserviços.
@@ -51,7 +51,7 @@ Responsável pelo gerenciamento do carrinho de compras.
 
 ---
 
-# 🚀 Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 - ASP.NET Core 8
 - Entity Framework Core
@@ -81,7 +81,7 @@ src/
 
 ---
 
-# 🔄 Comunicação Entre Serviços
+#  Comunicação Entre Serviços
 
 O BFF se comunica com os microserviços via HTTP utilizando `HttpClient`.
 
@@ -94,7 +94,7 @@ Frontend → BFF → Cart API
 
 ---
 
-# 🚀 Como Executar
+#  Como Executar
 
 ## 1. Pré-requisitos
 
@@ -162,7 +162,7 @@ dotnet run --project src/BffApi
 
 ---
 
-# 📡 Endpoints
+#  Endpoints
 
 ## 🔹 Product API
 
@@ -197,7 +197,7 @@ dotnet run --project src/BffApi
 
 ---
 
-# 📦 Exemplo de Requisição - Criar Produto
+#  Exemplo de Requisição - Criar Produto
 
 ```json
 {
@@ -210,7 +210,7 @@ dotnet run --project src/BffApi
 
 ---
 
-# 🎯 Objetivos do Projeto
+#  Objetivos do Projeto
 
 - Praticar arquitetura de microserviços
 - Implementar comunicação entre APIs
